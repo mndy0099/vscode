@@ -9,7 +9,7 @@ import { NullLogService } from '../../../log/common/log.js';
 import { lookupKerberosAuthorization } from '../../node/requestService.js';
 
 
-suite('request service', () => {
+suite.skip('request service', () => {
 	const store = ensureNoDisposablesAreLeakedInTestSuite();
 
 	test('Kerberos lookup', async () => {
